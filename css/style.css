@@ -1,0 +1,24 @@
+:root {
+    --typewriterSpeed: 6s;
+    --bgGradiant: linear-gradient(90deg, red, blue);
+    --fs-xl: 5rem;
+    --fs-600: 1.5rem;
+    --fs-500: 1.25rem;
+    --fs-400: 1rem;
+  }
+  
+  @media (min-width: 40em) {
+    :root {
+      --fs-xl: 7rem;
+      --fs-600: 2rem;
+      --fs-400: 1.25rem;
+    }
+  
+  }
+  
+  
+  
+
+.fs-mega {
+    font-size: var(--fs-400);
+}
